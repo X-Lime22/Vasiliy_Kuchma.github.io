@@ -161,6 +161,7 @@ hr {
 .slick-prev {
   left: 1%;
   transform: rotate(-45deg);
+  /* top: 40%; */
 }
 
 .slick-next {
@@ -659,6 +660,15 @@ a.btn:hover svg {
 
 /*=================Media_query===================*/
 
+@media (max-width: 990px) {
+  .works__slider {
+    width: 100%;
+  }
+
+  .works__text {
+    width: 100%;
+  }
+}
 @media (max-width: 740px) {
 
 
@@ -716,6 +726,7 @@ a.btn:hover svg {
     width: 10px;
     height: 10px;
   }
+
 
   .fade {
     padding: 0px 20px;
