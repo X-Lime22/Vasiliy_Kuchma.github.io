@@ -46,6 +46,6 @@ $(function() {
             enabled: true
         },
         removalDelay: 300,
-        mainClass: 'mfp-fade',
+        // mainClass: 'mfp-fade',
       });
 });
