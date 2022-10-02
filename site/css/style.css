@@ -169,6 +169,10 @@ hr {
   transform: rotate(135deg);
 }
 
+/* .slick-slide img {
+  min-height: 300px;
+} */
+
 /* ========Main__project======== */
 
 .header {
@@ -279,7 +283,9 @@ hr {
   cursor: pointer;
 
   display: none;
+
 }
+
 
 .nav-toggle.active .nav-toggle__item {
   background: none;
@@ -386,7 +392,7 @@ hr {
     position: absolute;              
     border-bottom: 1px solid #000;   
     top:50%;                         
-    right: 120px;                    
+    right: 230px;                    
 }
   
 .works__title span:after {
@@ -396,21 +402,21 @@ hr {
     position: absolute;
     border-bottom: 1px solid #000;
     top:50%;
-    left: 120px; 
+    left: 230px; 
 }
 
 .family span::before {
-    right: 140px; 
+    right: 240px; 
 }
 .family span::after {
-    left: 140px; 
+    left: 240px; 
 }
 
 .prof span::before {
-    right: 280px; 
+    right: 390px; 
 }
 .prof span::after {
-    left: 280px; 
+    left: 390px; 
 }
 
 /* .works__title span::before {
@@ -431,8 +437,6 @@ hr {
     flex-direction: row-reverse;
 }
 
-
-
 .works__slider {
     width: 40%;
 }
@@ -443,6 +447,50 @@ hr {
     line-height: 1.5;
 }
 
+/*================Magnific-poPup=============*/
+
+/* .poPup a {
+  display: inline-block;
+  width: 200px;
+}
+
+.poPup img {
+  max-width: 100%;
+} */
+
+
+.mfp-fade.mfp-bg {
+  opacity: 0;
+
+  -webkit-transition: all 0.15s ease-out;
+  -moz-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+}
+/* overlay animate in */
+.mfp-fade.mfp-bg.mfp-ready {
+  opacity: 0.8;
+}
+/* overlay animate out */
+.mfp-fade.mfp-bg.mfp-removing {
+  opacity: 0;
+}
+
+/* content at start */
+.mfp-fade.mfp-wrap .mfp-content {
+  opacity: 0;
+
+  -webkit-transition: all 0.15s ease-out;
+  -moz-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+}
+/* content animate it */
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+  opacity: 1;
+}
+/* content animate out */
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+  opacity: 0;
+}
 
 /*==================About==================*/
 
@@ -777,6 +825,10 @@ a.btn:hover svg {
 
   .main {
     padding-top: 300px;
+  }
+
+  .works__title {
+    margin-bottom: 40px;
   }
 
   .works__text {
